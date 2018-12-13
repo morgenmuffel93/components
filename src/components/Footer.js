@@ -12,6 +12,7 @@ class Footer extends Component {
         <div><img src="./images/square.svg" alt="main"/></div>
         <div><img src="./images/scan.svg" alt="scan"/></div>
         <div><img src="./images/microphone.svg" alt="microphone"/></div>
+        <div><img src="./images/profile.svg" alt="profile"/></div>
       </footer>
     );
   }
