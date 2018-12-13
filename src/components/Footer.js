@@ -9,9 +9,9 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div><img src="./images/square.svg" alt="main"/></div>
-        <div><img src="./images/scan.svg" alt="scan"/></div>
-        <div><img src="./images/microphone.svg" alt="microphone"/></div>
+        <div><img src={require('../images/squares.svg')} alt="main"/></div>
+        <div><img src={require('../images/scan.svg')} alt="scan"/></div>
+        <div><img src={require('../images/microphone.svg')} alt="microphone"/></div>
       </footer>
     );
   }
