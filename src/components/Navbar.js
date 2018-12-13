@@ -44,7 +44,7 @@ class Navbar extends Component {
     let {locations} = this.state
     return (
       <nav>
-        <input type="text" className="input" placeholder="Search..." onChange={this.handleSearch} name="search" value={this.state.search}/>
+        <input type="text" className="input" placeholder="Search Location..." onChange={this.handleSearch} name="search" value={this.state.search}/>
         <div>
           {locations.map((place, index) => {
               return <div key={index}>
